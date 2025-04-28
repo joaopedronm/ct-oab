@@ -184,7 +184,8 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 order-lg-2">
                         <div class="banner-right-content">
-                            <img class="tmp-scroll-trigger tmp-zoom-in animation-order-1" src="assets/images/banner/banner-user-image-one.png" alt="banner-img">
+                            <img class="tmp-scroll-trigger tmp-zoom-in animation-order-1 img-desktop" src="assets/images/banner/banner-user-image-one.png" alt="banner-img">
+                            <img class="tmp-scroll-trigger tmp-zoom-in animation-order-1 img-celular" src="assets/images/banner/banner-user-image-two.png" alt="banner-img">
                             <!-- <h2 class="banner-big-text-1 up-down">Professor</h2> -->
                             <!-- <h2 class="banner-big-text-2 up-down-2">Márcio Plastina</h2> -->
                         </div>
@@ -417,6 +418,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="price-plan-card tmponhover blur-style-two tmp-scroll-trigger tmp-fade-in animation-order-1">
                         <span class="price-sub-title">Premium (ONLINE)</span>
+                        <h3 class="main-price" style="font-size: 2.5rem; text-decoration: line-through; margin-bottom: -2rem; color: #df982c;">R$ 459,00</h3>
                         <h3 class="main-price">R$ 399,00</h3>
                         <p class="per-month">Ideal para quem quer o melhor acompanhamento mesmo à distância.</p>
                         <div class="check-box">
@@ -553,6 +555,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="price-plan-card tmponhover blur-style-two tmp-scroll-trigger tmp-fade-in animation-order-3">
                         <span class="price-sub-title">Platinum (ONLINE + PRESENCIAL)</span>
+                        <h3 class="main-price" style="font-size: 2.5rem; text-decoration: line-through; margin-bottom: -2rem; color: #df982c;">R$ 517,00</h3>
                         <h3 class="main-price">R$ 449,00</h3>
                         <p class="per-month">Para quem quer a experiência completa e máxima imersão.</p>
                         <div class="check-box">
@@ -647,63 +650,68 @@
 
     <div class="our-supported-company-area">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                    <div class="support-company-logo tmp-scroll-trigger tmp-fade-in" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                        <h2>🎓</h2>
-                        <h3 style="text-align: center;">Sinfrônio <br> <span style="font-weight: 400; font-style: italic; font-size: 2rem;">Ética</span></h3>
-                        <!-- <img src="assets/images/our-supported-company/company-logo-1.svg" alt="Reeni - Personal Portfolio HTML Template"> -->
+            <div class="professor-container">
+
+                <div class="tmp-fade-in">
+                    <div class="professor-card" onclick="this.classList.toggle('active')">
+                        <div class="professor-content">
+                            <img src="./assets/images/professores/roberto-girao.png" alt="professor" class="professor-image">
+                            <div>
+                                <p class="professor-name">Professor<br>Roberto Girão</p>
+                                <p class="materia">Direito Tributário e Processo Civil</p>
+                            </div>
+                        </div>
+                        <div class="professor-overlay">
+                            Advogado. Procurador Geral do TJDFCE. Professor Universitário e de cursos preparatórios para OAB, concurso público. Mestre e Doutorando em Direito Constitucional. Ex Procurador do DETRAN/CE e do METROFOR.
+                        </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                    <div class="support-company-logo tmp-scroll-trigger tmp-fade-in" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                        <h2>🎓</h2>
-                        <h3 style="text-align: center;">Douglas <br> <span style="font-weight: 400; font-style: italic; font-size: 2rem;">Direito do Trabalho</span></h3>
-                        <!-- <img src="assets/images/our-supported-company/company-logo-1.svg" alt="Reeni - Personal Portfolio HTML Template"> -->
+
+                <div class="tmp-fade-in">
+                    <div class="professor-card" onclick="this.classList.toggle('active')">
+                        <div class="professor-content">
+                            <img src="./assets/images/professores/marcio-plastina.png" alt="professor" class="professor-image">
+                            <div>
+                                <p class="professor-name">Professor<br>Márcio Plastina</p>
+                                <p class="materia">Direito Civil e Empresarial</p>
+                            </div>
+                        </div>
+                        <div class="professor-overlay">
+                            Pós-graduado em Direito Empresarial e mestre em Direito Constitucional pela Universidade de Fortaleza (UNIFOR), professor universitário e de cursos preparatórios para a OAB.
+                        </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                    <div class="support-company-logo tmp-scroll-trigger tmp-fade-in" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                        <h2>🎓</h2>
-                        <h3 style="text-align: center;">Ronaldo <br> <span style="font-weight: 400; font-style: italic; font-size: 2rem;">Direito Constitucional</span></h3>
-                        <!-- <img src="assets/images/our-supported-company/company-logo-1.svg" alt="Reeni - Personal Portfolio HTML Template"> -->
+
+                <div class="tmp-fade-in">
+                    <div class="professor-card" onclick="this.classList.toggle('active')">
+                        <div class="professor-content">
+                            <img src="./assets/images/professores/felipe-kuhn.png" alt="professor" class="professor-image">
+                            <div>
+                                <p class="professor-name">Professor<br>Felipe Kuhn</p>
+                                <p class="materia">Direito Penal</p>
+                            </div>
+                        </div>
+                        <div class="professor-overlay">
+                            Oficial de Perícia da PEFOCE – Perícia Forense do Estado do Ceará, Perito Judicial, ex-advogado criminalista, professor de cursinho preparatório para concursos, professor universitário, palestrante e aprovado em seis concursos das carreiras policiais.
+                        </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                    <div class="support-company-logo tmp-scroll-trigger tmp-fade-in" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                        <h2>🎓</h2>
-                        <h3 style="text-align: center;">Sarah  <br> <span style="font-weight: 400; font-style: italic; font-size: 2rem;">Direito Penal</span></h3>
-                        <!-- <img src="assets/images/our-supported-company/company-logo-1.svg" alt="Reeni - Personal Portfolio HTML Template"> -->
+
+                <div class="tmp-fade-in">
+                    <div class="professor-card" onclick="this.classList.toggle('active')">
+                        <div class="professor-content">
+                            <img src="./assets/images/professores/sinfronio-filho.png" alt="professor" class="professor-image">
+                            <div>
+                                <p class="professor-name">Professor<br>Sinfronio Filho</p>
+                                <p class="materia">Ética</p>
+                            </div>
+                        </div>
+                        <div class="professor-overlay">
+                            Advogado, pós-graduado em Gestão Aplicada ao Direito Público e Privado, ex-assessor do Ministério Público do Ceará e ex-professor universitário. Professor de cursos preparatórios em Direito Penal, Processo Penal e Ética Profissional.
+                        </div>
                     </div>
                 </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                    <div class="support-company-logo tmp-scroll-trigger tmp-fade-in" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                        <h2>🎓</h2>
-                        <h3 style="text-align: center;">Roberto  <br> <span style="font-weight: 400; font-style: italic; font-size: 2rem;">Direito Tributário e Processo Civil</span></h3>
-                        <!-- <img src="assets/images/our-supported-company/company-logo-1.svg" alt="Reeni - Personal Portfolio HTML Template"> -->
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                    <div class="support-company-logo tmp-scroll-trigger tmp-fade-in" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                        <h2>🎓</h2>
-                        <h3 style="text-align: center;">Plastina  <br> <span style="font-weight: 400; font-style: italic; font-size: 2rem;">Direito Civil e Empresarial</span></h3>
-                        <!-- <img src="assets/images/our-supported-company/company-logo-1.svg" alt="Reeni - Personal Portfolio HTML Template"> -->
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                    <div class="support-company-logo tmp-scroll-trigger tmp-fade-in" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                        <h2>🎓</h2>
-                        <h3 style="text-align: center;">Felipe   <br> <span style="font-weight: 400; font-style: italic; font-size: 2rem;">Direito Penal</span></h3>
-                        <!-- <img src="assets/images/our-supported-company/company-logo-1.svg" alt="Reeni - Personal Portfolio HTML Template"> -->
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
-                    <div class="support-company-logo tmp-scroll-trigger tmp-fade-in" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-                        <h2>🎓</h2>
-                        <h3 style="text-align: center;">Lucas  <br> <span style="font-weight: 400; font-style: italic; font-size: 2rem;">Direito Administrativo</span></h3>
-                        <!-- <img src="assets/images/our-supported-company/company-logo-1.svg" alt="Reeni - Personal Portfolio HTML Template"> -->
-                    </div>
-                </div>
+
             </div>
         </div>
     </div>
@@ -926,6 +934,44 @@
         });
     });
     </script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+        const professorCards = document.querySelectorAll('.professor-card');
+        
+        // Verifica se a largura da tela é menor que 768px (considerado mobile)
+        function isMobile() {
+            return window.innerWidth <= 768;
+        }
+        
+        professorCards.forEach(card => {
+            if (isMobile()) {
+                card.addEventListener('click', function() {
+                    this.classList.toggle('active');
+                });
+            } else {
+                // Remove o atributo onclick se existir no HTML
+                card.removeAttribute('onclick');
+            }
+        });
+        
+        // Opcional: Re-aplicar/remover os eventos se a janela for redimensionada
+        window.addEventListener('resize', function() {
+            professorCards.forEach(card => {
+                if (isMobile()) {
+                    card.addEventListener('click', function() {
+                        this.classList.toggle('active');
+                    });
+                } else {
+                    card.removeEventListener('click', function() {
+                        this.classList.toggle('active');
+                    });
+                }
+            });
+        });
+    });
+    </script>
+
 </body>
 
 </html>
