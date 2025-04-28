@@ -27209,3 +27209,9 @@ body.tmp-white-version.color-primary-3rd .services-widget.v2 .active-bg {
     gap: 0px;
   }
 } */
+
+@media (min-width: 1600px) {
+  .banner-one-main-wrapper {
+    padding-top: 60px !important;
+  }
+}
